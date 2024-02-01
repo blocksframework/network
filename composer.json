@@ -1,0 +1,24 @@
+{
+    "name": "blocksframework/network",
+    "description": "Network classes used by the Blocks PHP framework",
+    "license": "MIT",
+    "keywords": [
+        "blocks",
+        "PHP framework",
+        "network"
+    ],
+    "require": {
+        "php": ">=8.2",
+        "beberlei/assert": "^3.3",
+        "phpunit/phpunit": "^9.6",
+        "blocksframework/system": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Stephen Stephenson",
+            "email": "stephenson.inbox@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
