@@ -10,8 +10,12 @@
     "require": {
         "php": ">=8.2",
         "beberlei/assert": "^3.3",
-        "phpunit/phpunit": "^9.6",
-        "blocksframework/system": "dev-master"
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blocks\\Network\\":"src/class"
+        }
     },
     "authors": [
         {
